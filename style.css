@@ -125,7 +125,7 @@ a:hover {
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto ;
-  margin-left: 4%;
+  margin-left: 9%;
   margin-right: 10px;
   color: white;
   gap: 10px;
@@ -134,14 +134,19 @@ a:hover {
   margin-top: 10%;
   /* padding-bottom: 15%; */
 }
+.grid-container>div>img{
+    border-radius: 3rem;
+}
 
 .grid-container>div{
-    font-size: 25px;
+    font-size: 17px;
     gap: 5px;
-    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* margin-top: 30px; */
+    /* margin-top: 30px;    */
 }
 .grid-container>div>button{
     background-color:rgb(79, 177, 210);
@@ -150,7 +155,7 @@ a:hover {
     padding-left: 30px;
     padding-right: 30px;
     /* margin-top: 20px; */
-    margin-left: 30%;
+    margin-left: 22%;
     font-size: 20px;
     border-radius: 15px;
     margin-bottom: 7rem;
@@ -315,6 +320,12 @@ a:hover {
     font-size: large; 
 }
 .item4:hover{
+    font-size: large;
+}
+.item5:hover{
+    font-size: large;
+}
+.item6:hover{
     font-size: large;
 }
 
